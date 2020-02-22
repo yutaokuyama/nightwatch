@@ -1,0 +1,22 @@
+{
+  "name": "hoge",
+  "version": "1.0.0",
+  "description": "hoge",
+  "main": "sample.js",
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch -e chrome sample.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^1.3.4",
+    "parcel": "^1.12.4",
+  },
+  "devDependencies": {
+    "chromedriver": "^80.0.1"
+  }
+}
