@@ -4,8 +4,5 @@ module.exports = {
       searchBar: {
         selector: 'input[name="q"]',
       },
-      submit: {
-        selector: 'button[name="btnK"]',
-      }
     }
   };
