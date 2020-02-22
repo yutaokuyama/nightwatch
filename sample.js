@@ -1,6 +1,6 @@
 module.exports  = {
   'Test' : function(browser){
-    let ecosia = browser.page.ecosia();
+    const ecosia = browser.page.ecosia();
 
     ecosia.navigate()
       .assert.titleContains('Ecosia')
