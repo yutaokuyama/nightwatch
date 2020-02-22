@@ -1,8 +1,8 @@
 module.exports  = {
   'Test' : function(browser){
-    let google = browser.page.google();
+    let ecosia = browser.page.ecosia();
 
-    google.navigate()
+    ecosia.navigate()
       .assert.titleContains('Ecosia')
       .assert.visible('@searchBar')
       .setValue('@searchBar', 'hoge')
